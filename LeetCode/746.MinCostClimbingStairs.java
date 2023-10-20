@@ -6,6 +6,10 @@ import java.util.*;
  * Return the minimum cost to reach the top of the floor
  * Example cost[10,15,20]
  * Output: 15
+ * 
+ * Strategy:
+ * Start from third index, compare the previous two index cost
+ * Add on to the array. Make sure in order to reach this step, how much cost is required
  */
 
 public class MinCostClimbingStairs 
